@@ -104,8 +104,8 @@ gcc -shared -fPIC bindings.c -o shared/bindings.so -lraylib
 
 # 2. Run stuff
 cd ../..
-codon run -release Codon/bindings/shared/raylib/libraylib.so Codon/particles.py
-codon run -release Codon/bindings/shared/raylib/libraylib.so Codon/show_image.py
+codon run -release Codon/particles.py
+codon run -release Codon/show_image.py
 ```
 
 Or just use the pre-built binaries in `builds/` if you're lazy.
