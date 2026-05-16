@@ -1,6 +1,6 @@
 # raylib-codon-tiny
 
-> "What if I could write raylib games in Python syntax but compile them to native binaries?"
+> "What if I could write raylib games in Python syntax but compile them to native binaries and get C FPS?"
 
 This is a tiny experiment: hand-rolled FFI bindings so [Codon](https://github.com/exaloop/codon) can talk to raylib. No code generators, no massive wrappers — just a thin C shim and some `from C import` magic.
 
@@ -13,8 +13,8 @@ Currently covers **16 functions** (windowing, drawing, textures, and some math t
 ### Image viewer
 ![Image Demo](https://raw.githubusercontent.com/AdelAlQosi/raylib-codon-tiny/main/demos/demo_image.png)
 
-### 5k particles @ 60 FPS
-<video src="https://raw.githubusercontent.com/AdelAlQosi/raylib-codon-tiny/main/demos/demo_particles_compressed.webm" width="100%"></video>
+### 5k particles @ 60 FPS (slow gif)
+![Image Demo](https://raw.githubusercontent.com/AdelAlQosi/raylib-codon-tiny/main/demos/demo_particles.gif)
 
 ---
 
