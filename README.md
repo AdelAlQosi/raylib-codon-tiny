@@ -14,7 +14,7 @@ Currently covers **16 functions** (windowing, drawing, textures, and some math t
 ![Image Demo](https://raw.githubusercontent.com/AdelAlQosi/raylib-codon-tiny/main/demos/demo_image.png)
 
 ### 5k particles @ 60 FPS
-<video src="./demos/demo_particles.webm" width="100%"></video>
+<video src="https://raw.githubusercontent.com/AdelAlQosi/raylib-codon-tiny/main/demos/demo_particles_compressed.webm" width="100%"></video>
 
 ---
 
