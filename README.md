@@ -144,9 +144,11 @@ If the function takes no arguments at all, import it with `as` to rename it:
 ```python
 from C import rl.CloseWindow() -> None as close_window
 from C import rl.WindowShouldClose() -> bool as window_should_close
+```
 
 **Path B — simple primitives with a string argument:**
 If the function takes a string, add it directly in `bindings/__init__.py`, then add it to the API in `raylib.py`:
+
 ```python
 # __init__.py
 from C import rl.InitWindow(int, int, cobj) -> None
