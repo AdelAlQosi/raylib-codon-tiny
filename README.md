@@ -159,7 +159,7 @@ def init_window(w, h, title):
 ```
 
 **Path C — structs or pointers:**
-If it needs a `Color`, `Rectangle`, `Image*`, etc., write a thin wrapper in `bindings/bindings.c` that takes primitives or `void*` handles, rebuilds the raylib struct, and calls the real function. Then expose it in `__init__.py` and wrap it in `raylib.py` for a nice API.
+If it needs a `Texture`, `Image*`, etc., write a thin wrapper in `bindings/bindings.c` that takes primitives or `void*` handles, rebuilds the raylib struct, and calls the real function. Then expose it in `__init__.py` and wrap it in `raylib.py` for a nice API.
 
 Rinse and repeat until you have the full raylib API (or at least the parts you actually use).
 
