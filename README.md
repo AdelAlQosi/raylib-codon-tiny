@@ -163,7 +163,8 @@ If it needs a `Texture`, `Image*`, etc., write a thin wrapper in `bindings/bindi
 
 Rinse and repeat until you have the full raylib API (or at least the parts you actually use).
 
-(Path C can actually go in many ways, but they are not all explored here.)
+##### (Path C can actually go in many ways, but they are not all explored here.)
+
 ---
 ## Experiments in progress
 
